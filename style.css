@@ -1,0 +1,85 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body{
+    background:#0f0f1a;
+    color:white;
+}
+
+header{
+    background:#111827;
+    padding:20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:#00f7ff;
+}
+
+.section{
+    padding:60px 10%;
+}
+
+.section h2{
+    margin-bottom:20px;
+    color:#00f7ff;
+}
+
+.skills-box span{
+    display:inline-block;
+    background:#1f2937;
+    padding:10px 15px;
+    margin:5px;
+    border-radius:8px;
+}
+
+.projects{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#1f2937;
+    padding:30px;
+    text-align:center;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 20px #00f7ff;
+}
+
+.contact-links a{
+    display:inline-block;
+    margin:10px;
+    padding:12px 25px;
+    background:#00f7ff;
+    color:black;
+    text-decoration:none;
+    border-radius:25px;
+    font-weight:bold;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+}
